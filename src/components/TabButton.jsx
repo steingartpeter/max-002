@@ -1,9 +1,7 @@
-const TabButton = (props) => {
+const TabButton = ({ children, isSelected, ...props }) => {
   return (
     <li>
-      <button className={props.isSelected ? "active" : ""} onClick={props.onSelect}>
-        {props.children}
-      </button>
+      <button {...props}>{children}</button>
     </li>
   );
 };
