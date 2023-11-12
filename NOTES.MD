@@ -55,3 +55,7 @@ The component call:
 `<Tabs buttonsContainer="menu" buttons={buttons}>`  
  `{tabContent}`  
 `</Tabs>`
+Apart from this, the JSX popr can not be used instantly in the component. First it must be converted to a local contant, then this constan can be used as any other component:  
+![alt text for screen readers](src/assets/MLTPL_SLOTS.jpg "Local component from JSX variable")
+
+---
