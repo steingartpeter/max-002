@@ -56,6 +56,15 @@ The component call:
  `{tabContent}`  
 `</Tabs>`
 Apart from this, the JSX popr can not be used instantly in the component. First it must be converted to a local contant, then this constan can be used as any other component:  
-![alt text for screen readers](src/assets/MLTPL_SLOTS.jpg "Local component from JSX variable")
+![alt text for screen readers](src/assets/MLTPL_SLOTS.jpg "Local component from JSX variable")  
+Or alternaively we can use UPPERCASE prop nam, and use it instantly as a component-prop!  
+`const Tabs = ({ children, buttons, ButtonsContainer }) => {`  
+`  return (`  
+`    <>`  
+`      <ButtonsContainer>{buttons}</ButtonsContainer>`  
+`      {children}`  
+`    </>`  
+`  );`  
+``};`
 
 ---

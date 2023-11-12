@@ -1,13 +1,7 @@
-const Tabs = ({ children, buttons, buttonsContainer }) => {
-  {
-    /*
-    The incoming HTML lement/Component names must be converted local varaibles before usage
- */
-  }
-  const ButtonContainer = buttonsContainer;
+const Tabs = ({ children, buttons, ButtonsContainer }) => {
   return (
     <>
-      <ButtonContainer>{buttons}</ButtonContainer>
+      <ButtonsContainer>{buttons}</ButtonsContainer>
       {children}
     </>
   );

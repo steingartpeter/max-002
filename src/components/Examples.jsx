@@ -60,7 +60,7 @@ export default function Examples() {
       We can use even our own component, but with a bit different syntax: 
       [<Tabs buttonsContainer={Section} buttons={buttons}>]
        */}
-      <Tabs buttonsContainer="menu" buttons={buttons}>
+      <Tabs ButtonsContainer="menu" buttons={buttons}>
         {tabContent}
       </Tabs>
     </Section>
